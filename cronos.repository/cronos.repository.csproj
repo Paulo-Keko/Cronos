@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\cronos.entity\cronos.entity.csproj" />
+    <ProjectReference Include="..\cronos.infrastructure\cronos.infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

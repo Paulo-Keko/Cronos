@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cronos.entity", "cronos.entity\cronos.entity.csproj", "{B874D159-B686-4990-8290-CF330607789D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cronos.repository", "cronos.repository\cronos.repository.csproj", "{0F05B22D-7859-439E-86DF-9370E335C78C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cronos.service", "cronos.service\cronos.service.csproj", "{F0B1D23D-DEA6-4B08-B2BC-EFAB256344EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cronos.infrastructure", "cronos.infrastructure\cronos.infrastructure.csproj", "{319E9D2B-A546-478D-B298-817106666C90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cronos.api", "cronos.api\cronos.api.csproj", "{227F814A-EFCF-4151-A6BC-5DC074C46A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cronos.test", "cronos.test\cronos.test.csproj", "{8D59F6AA-E95C-4E17-95E7-3A7E9F38998A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B874D159-B686-4990-8290-CF330607789D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B874D159-B686-4990-8290-CF330607789D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B874D159-B686-4990-8290-CF330607789D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B874D159-B686-4990-8290-CF330607789D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F05B22D-7859-439E-86DF-9370E335C78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F05B22D-7859-439E-86DF-9370E335C78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F05B22D-7859-439E-86DF-9370E335C78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F05B22D-7859-439E-86DF-9370E335C78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B1D23D-DEA6-4B08-B2BC-EFAB256344EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B1D23D-DEA6-4B08-B2BC-EFAB256344EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B1D23D-DEA6-4B08-B2BC-EFAB256344EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B1D23D-DEA6-4B08-B2BC-EFAB256344EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319E9D2B-A546-478D-B298-817106666C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319E9D2B-A546-478D-B298-817106666C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319E9D2B-A546-478D-B298-817106666C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319E9D2B-A546-478D-B298-817106666C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{227F814A-EFCF-4151-A6BC-5DC074C46A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227F814A-EFCF-4151-A6BC-5DC074C46A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227F814A-EFCF-4151-A6BC-5DC074C46A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227F814A-EFCF-4151-A6BC-5DC074C46A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D59F6AA-E95C-4E17-95E7-3A7E9F38998A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D59F6AA-E95C-4E17-95E7-3A7E9F38998A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D59F6AA-E95C-4E17-95E7-3A7E9F38998A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D59F6AA-E95C-4E17-95E7-3A7E9F38998A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {661D8176-5EC8-4822-9D20-88C4254761E9}
+	EndGlobalSection
+EndGlobal

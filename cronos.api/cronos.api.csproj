@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\cronos.entity\cronos.entity.csproj" />
+    <ProjectReference Include="..\cronos.infrastructure\cronos.infrastructure.csproj" />
+    <ProjectReference Include="..\cronos.repository\cronos.repository.csproj" />
+    <ProjectReference Include="..\cronos.service\cronos.service.csproj" />
+  </ItemGroup>
+
+</Project>
