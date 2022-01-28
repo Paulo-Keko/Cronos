@@ -13,10 +13,10 @@ Para este projeto foi usado o dotnet core 5, visando atender os requisitos da do
 Toda a documentação da API está disponível pelo [swagger](/swagger/index.html).
 
 # Generic Repository e Unit Of Work
-//https://www.martinfowler.com/eaaCatalog/unitOfWork.html
+[Unit Of Work](https://www.martinfowler.com/eaaCatalog/unitOfWork.html)
 - Unit Of Work é um padrão de projeto e, de acordo com Martin Fowler, o padrão de unidade de trabalho “mantém uma lista de objetos afetados por uma transação, coordena a escrita de mudanças e trata possíveis problemas de concorrência
 
-//https://www.martinfowler.com/eaaCatalog/repository.html
+[Generic Repository](https://www.martinfowler.com/eaaCatalog/repository.html)
 - De uma maneira bem simples, Martin Fowler define um repositório como um “objeto que faz a mediação entre o domínio e as camadas de mapeamento de dados”. O objetivo é isolar objetos de domínio dos detalhes do código de acesso a dados. No entanto, o repositório genérico pode permitir que os desenvolvedores envolvam a tecnologia de acesso a dados subjacente, como classes do Entity Framework.
 
 # Unit Test
